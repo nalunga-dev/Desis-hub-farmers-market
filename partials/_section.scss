@@ -1,0 +1,26 @@
+section {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: ce;
+  padding: 4rem 0.5rem;
+  gap: 1.5rem;
+  .maina {
+    .Agric {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  .farm {
+    font-weight: bolder;
+  }
+  .farm1 {
+    border: none;
+    background-color: #29a345;
+    padding: 0.7rem 1.8rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    color: white;
+  }
+}

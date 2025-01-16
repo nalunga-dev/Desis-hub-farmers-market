@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", serif;
+}
+
+section {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: ce;
+  padding: 4rem 0.5rem;
+  gap: 1.5rem;
+}
+section .maina .Agric {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section .farm {
+  font-weight: bolder;
+}
+section .farm1 {
+  border: none;
+  background-color: #29a345;
+  padding: 0.7rem 1.8rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
