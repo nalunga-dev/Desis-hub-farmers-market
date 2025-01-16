@@ -6,7 +6,81 @@
 }
 body {
   font-family: "Poppins", serif;
+  padding: 1rem;
   /* overflow: hidden; */
+}
+nav {
+  background-color: rgba(255, 228, 196, 0.307);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  gap: 1rem;
+}
+.iddd {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+}
+.lovely {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: black;
+  border: 1px solid white;
+}
+.iddda {
+  display: flex;
+  gap: 0.5rem;
+}
+.bx-bell {
+  color: black;
+  background-color: white;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+.bxs-comment-detail {
+  color: black;
+  background-color: white;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+.bx-cart-download {
+  color: black;
+  background-color: white;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+form {
+  /* background-color: rgba(163, 157, 157, 0.436); */
+  background-color: rgba(163, 157, 157, 0.318);
+  width: 50%;
+  font-weight: bolder;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 1rem;
+  padding-left: 0.3rem;
+  color: grey;
+  @media (max-width: 585px) {
+    width: 100%;
+  }
+}
+input {
+  border: none;
+  outline: none;
+  width: 100%;
+  /* border-radius: 0.5rem; */
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  padding: 0.7rem;
+  background-color: rgba(163, 157, 157, 0.318);
 }
 section {
   display: flex;
