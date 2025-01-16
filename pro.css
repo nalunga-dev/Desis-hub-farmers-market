@@ -7,15 +7,17 @@
 body {
   font-family: "Poppins", serif;
   background-color: bisque;
+  overflow: hidden;
 }
 section {
   /* background-color: white; */
   display: flex;
   flex-direction: column;
   justify-items: center;
+  align-items: center;
   gap: 0.5rem;
   color: black;
-  /* padding: 0 1rem; */
+  padding: 1rem;
   font-weight: bolder;
 }
 .detail {
@@ -23,12 +25,12 @@ section {
   display: flex;
   flex-direction: column;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-template-columns: repeat(5, 1fr);
   gap: 0.3rem;
   padding: 1rem;
   @media (max-width: 585px) {
-    grid-template-columns: repeat(3, 1fr);
-    padding: 1rem 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    /* padding: 1rem 1.5rem; */
   }
 }
 .detail1 {
