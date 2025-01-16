@@ -15,7 +15,8 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
-  gap: 1rem;
+  border-radius: 0.5rem;
+  /* gap: 5rem; */
 }
 .iddd {
   display: flex;
